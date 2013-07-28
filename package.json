@@ -1,0 +1,34 @@
+{
+  "name": "flower-mud",
+  "version": "0.0.0",
+  "description": "a simple cli tool to serve HTML projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-dev dev.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiyinyiyong/flower-mud.git"
+  },
+  "keywords": [
+    "static",
+    "cli",
+    "server"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/flower-mud/issues"
+  },
+  "dependencies": {
+    "zepto": "0.0.4",
+    "mime": "~1.2.10",
+    "coffee-pattern": "~0.0.2"
+  },
+  "devDependencies": {
+    "calabash": "0.0.4"
+  },
+  "bin": {
+    "flower-mud": "bin/flower-mud"
+  }
+}
